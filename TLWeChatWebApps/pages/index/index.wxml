@@ -1,0 +1,9 @@
+<view class='tableview_section'>
+      <block wx:for="{{table_data_source}}">
+         <view class='tableview_cell' bindtap="{{item.tap}}">
+            <image src='{{item.iconurl}}'></image>
+            <text>{{item.title}}</text>
+            <view class='tab_cell_indicator'></view>
+         </view>
+      </block>
+   </view>

@@ -1,0 +1,146 @@
+.content{
+   position: absolute;
+   widows: 100%;
+   top: 0;
+   /* bottom: x0; */
+   background-color: rgb(240, 240, 240);
+   /* border: 1rpx solid red; */
+   
+}
+
+.headview{
+   background-color: rgb(240, 240, 240);
+   height: 210rpx;
+   /* border: 1rpx solid greenyellow; */
+   display: flex;
+   align-items: center;
+   padding-left: 50rpx;
+}
+.headimage{
+   background-color: blue;
+   height: 130rpx;
+   width: 130rpx;
+   border-radius: 65rpx;
+   
+}
+.username{
+   font-size: 25rpx;
+   padding-left: 30rpx;
+}
+
+.order{
+   height: 280rpx;
+   background-color: white;
+   width: 100%;
+   /* border: 1rpx solid red; */
+   display: flex;
+   flex-direction: column;
+}
+.myorder{
+   padding-left: 20rpx;
+   padding-top: 30rpx;
+   font-size: 25rpx;
+   /* flex: 1; */
+}
+
+.order_backview{
+   flex: 1;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   /* height: 200rpx; */
+}
+.daifukuan{
+   /* background-color: gold; */
+   height: 100%;
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column;
+}
+.daifukuan_image_icon{
+   background-color: rgb(240, 230, 230);
+   width: 90rpx;
+   height: 90rpx;
+   border-radius: 45rpx;
+}
+.daifukuan_image_text{
+   font-size: 30rpx;
+   padding-top: 10rpx;
+}
+.quanbudingdan{
+   /* background-color: red; */
+   height: 100%;
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column;
+}
+
+
+.tableview_section{
+   width: 100%;
+   margin: 20rpx 0;
+   border-top: 1rpx solid #d9d9d9;
+   border-bottom: 1rpx solid #d9d9d9;
+   background-color: white;
+
+}
+
+.tableview_cell{
+   display: flex;
+   margin-left: 30rpx;
+   border-bottom: 1rpx solid RGBA(217, 217, 217,0.4);
+   height: 85rpx;
+   align-items: center;
+}
+
+.tableview_cell image{
+   height: 40rpx;
+   width: 40rpx;
+}
+.tableview_cell text{
+   color: #7F8389;
+   font-size: 24rpx;
+   flex: 1;
+   margin-left: 30rpx;
+}
+.tableview_cell .tab_cell_indicator{
+   width: 50rpx;
+   color: #d9d9d9;
+   height: 40rpx;
+   margin-right: 20rpx;
+   text-align: center;
+   border: 1px solid red;
+}
+
+.tableview_cell .tab_cell_indicator{
+   display: inline-block;
+   content:'';
+   width: 16rpx;
+   height: 16rpx;
+   color: #d9d9d9;
+   margin-top: 8rpx;
+   border:3rpx #d9d9d9 solid;
+   border-top-color:transparent;
+   border-left-color:transparent;
+   transform: rotate(-45deg);
+}
+/* 水平居中-父视图加载
+
+   display: flex;
+   justify-content: center; */
+
+   /* 垂直居中 - 父视图加载
+   
+   display: flex;
+   align-items: center; */
+
+   /*  排列方式
+   display: flex;
+   justify-content: center;
+   align-items: center; 
+   flex-direction: column;
+    */

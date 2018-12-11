@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/apps/amazon/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#4162F2",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "pages/images/setting_icon/home_normal.png",
+      "selectedIconPath": "pages/images/setting_icon/home_selected.png"
+    },
+    {
+       "pagePath": "pages/logs/logs",
+      "text": "其他",
+      "iconPath": "pages/images/setting_icon/other_normal.png",
+      "selectedIconPath": "pages/images/setting_icon/other_normal.png"
+    }
+    ]
+  }
+}

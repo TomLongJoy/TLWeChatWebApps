@@ -1,0 +1,48 @@
+<scroll-view class='content' scorll-y = 'true'>
+   <!-- 1.顶部个人信息 -->
+   <view class='headview'>
+      <image class='headimage' src='/pages/images/apps_icon/user_head.png'></image>
+      <label class='username'>徒步阳光</label>
+   </view>
+
+
+   <!-- 2.我的订单 -->
+   <view class='order'>
+      <label class='myorder'>我的订单</label>
+      <view class='order_backview'>
+         <view class='daifukuan'>
+            <image class='daifukuan_image_icon' src='/pages/images/apps_icon/wait_pay.png'></image>
+            <label class='daifukuan_image_text'>待付款</label>
+         </view>
+         <view class='quanbudingdan'>
+            <image class='daifukuan_image_icon' src='/pages/images/apps_icon/all_order.png'></image>
+            <label class='daifukuan_image_text'>全部订单</label>
+         </view>
+      </view>
+      
+   </view>
+
+
+   <!-- 3tableViewSection-Cell -->
+   <view class='tableview_section'>
+      <block wx:for="{{tab_section_zero}}">
+         <view class='tableview_cell' >
+            <image src='/pages/images/apps_icon/wait_pay.png'></image>
+            <text>{{item.title}}</text>
+            <view class='tab_cell_indicator'></view>
+         </view>
+      </block>
+   </view>
+
+   <view class='tableview_section'>
+      <block wx:for="{{tab_section_zero}}">
+         <view class='tableview_cell' >
+            <image src='/pages/images/apps_icon/all_order.png'></image>
+            <text>{{item.title}}</text>
+            <view class='tab_cell_indicator'></view>
+         </view>
+      </block>
+   
+   </view>
+   
+</scroll-view>
