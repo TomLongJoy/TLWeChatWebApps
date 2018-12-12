@@ -1,0 +1,67 @@
+<scroll-view class='content' >
+   <view class='user_top'>
+      <view class='user_infor'>
+         <view class='head_name'>
+            <image class='head_image' src='/pages/images/apps_icon/user_head.png'></image>
+            <view class='user_name'>用户679327897843
+         </view>
+         </view>
+         <view class='changeAcount'>切换账号</view>
+      </view>
+   </view>
+   <view class='urser_bottom'>
+      <view class='weibo_count'>
+         <label class='aount_numnber'>0</label>
+         <label class='attation'>微博</label>
+      </view>
+      <view class='attation_count'>
+         <label class='aount_numnber'>0</label>
+         <label class='attation'>关注</label>
+      </view>
+      <view class='fans_count'>
+         <label class='aount_numnber'>1</label>
+         <label class='attation'>粉丝</label>
+      </view>
+   </view>
+   <view class='sign_in'>
+      <view class='score'>
+         <view class='score_number'>
+            <label class='score_label'>30积分</label>
+            <label class='redbag_label'>每日签到领红包</label>
+         </view>
+         <view class='score_look'>去查看</view>
+      </view>
+      <view class='sign_in_day'>
+         <label class='sign_days'>
+            <view class='sign_score_view' ></view>
+            <label class='sign_score_numbre'>第1天</label>
+         </label>
+         <label class='sign_days'>
+            <view class='sign_score_view' ></view>
+            <label class='sign_score_numbre'>第2天</label>
+         </label>
+         <label class='sign_days'>
+            <view class='sign_score_view' ></view>
+            <label class='sign_score_numbre'>第3天</label>
+         </label>
+         <label class='sign_days'>
+            <view class='sign_score_view' >+80</view>
+            <label class='sign_score_numbre'>第4天</label>
+         </label>
+         <label class='sign_days'>
+            <view class='sign_score_view' ></view>
+            <label class='sign_score_numbre'>第5天</label>
+         </label>
+         <label class='sign_days'>
+            <view class='sign_score_view' ></view>
+            <label class='sign_score_numbre'>第6天</label>
+         </label>
+         <label class='sign_days'>
+            <view class='sign_score_view' ></view>
+            <label class='sign_score_numbre'>第7天</label>
+         </label>
+      </view>
+   </view>
+   <view class='my_message'>我的消息</view>
+</scroll-view>
+

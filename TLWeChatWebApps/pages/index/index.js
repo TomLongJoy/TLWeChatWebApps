@@ -15,23 +15,23 @@ Page({
         },
         {
            "iconurl": "/pages/images/apps_icon/amazon_icon.png",
-           "title": "二维码",
-           "tap": "scanQRCode'"
+           "title": "微博-我的",
+           "tap": "weiboClickRow"
         },
         {
            "iconurl": "/pages/images/apps_icon/amazon_icon.png",
            "title": "二维码",
-           "tap": "scanQRCode'"
+           "tap": "scanQRCode"
         },
         {
            "iconurl": "/pages/images/apps_icon/amazon_icon.png",
            "title": "二维码",
-           "tap": "scanQRCode'"
+           "tap": "scanQRCode"
         },
         {
            "iconurl": "/pages/images/apps_icon/amazon_icon.png",
            "title": "二维码",
-           "tap": "scanQRCode'"
+           "tap": "scanQRCode"
         }
      ],
 
@@ -74,6 +74,11 @@ Page({
    amazonClickRow: function () {
       wx.navigateTo({
          url: '/pages/apps/amazon/mine/mine'
+      })
+   },
+   weiboClickRow:function(){
+      wx.navigateTo({
+         url: '/pages/apps/weibo/mine/mine'
       })
    },
    scanQRCode: function () {

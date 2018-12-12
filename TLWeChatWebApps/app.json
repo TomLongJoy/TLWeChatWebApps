@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
     "pages/logs/logs",
-    "pages/apps/amazon/mine/mine"
+    "pages/apps/amazon/mine/mine",
+    "pages/apps/weibo/mine/mine"
   ],
   "window":{
     "backgroundTextStyle":"light",
